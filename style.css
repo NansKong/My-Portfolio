@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sidebar{
+    background-color: white;
+    color: black;
+}
+
+
+.sidebar nav a{
+    vertical-align: middle;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: large;
+    font-style: normal;
+    /* font-weight: 600; */
+    text-decoration: none;
+    color: black;
+    
+}
+
+.sidebar nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 9px;
+    padding-right: 73px;
+    width: 97vw;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+
+}
+
+.sidebar nav .search-container {
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #searchBar {
+    padding: 6px;
+    border-radius: 7px
+  }
+  
+  .sidebar nav .search-container button {
+    float: right;
+    margin-right: 1px;
+    background-color: transparent;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: -25px;
+  }
+  
+  .sidebar .nav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  /* @media screen and (max-width: 600px){
+    .topnav .search-container {
+      float: none;
+    } */
+    .sidebar .nav a, .nav input[type=text], .nav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .sidebar .nav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+
+
+.main{
+    color: blue;
+    rotate: -30deg;
+    width: fit-content;
+    padding: 40px;
+    margin: 0px;
+    position: relative;
+    top: 80px;
+    
+}
+
+.container{
+   font-family: 'Roboto Slab', serif;
+   font-size: 80px;
+   padding: 40px;
+   margin: 0px;
+   position: relative;
+   left: 20px;
+   bottom: 10px;
+   
+}
+
+.line{
+    content: " ";
+    display: block;
+    height: 3px;
+    width: 41px;
+    position: absolute;
+    top: 473px;
+    left: 67px;
+    background: black;
+}
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    position: relative;
+    left: 117px;
+    bottom: 60px;
+}
+
+.contacts{
+    font-family: 'Comic Neue', cursive;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    position: relative;
+    left: 117px;
+    font-size: larger;
+}
+
+.icons{
+    position: relative;
+    left: 119px;
+    bottom: 25px;
+}
+
+/* #contactsBar{
+    border-radius: 7px;
+} */
+
+.blogs{
+    font-family: 'Comic Neue', cursive;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    position: relative;
+    left: 269px;
+    bottom: 54px;
+    font-size: larger;
+}
+
+.icoN{
+    position: relative;
+    left: 104px;
+    bottom: 23px;
+}
+
+.IGcontacts{
+    position: relative;
+    left: 124px;
+    top: 4px;
+}
+
+.Icons{
+    position: relative;
+    left: 228px;
+    bottom: 17px;
+    
+}
+
+.Icons svg{
+    padding-left: 10px;
+    width: 22px;
+    height: 22px;
+    text-decoration: none;
+    color: black;
+}
